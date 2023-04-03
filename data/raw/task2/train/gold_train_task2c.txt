@@ -1,0 +1,176 @@
+Subject,label
+subject101,suffer+in favour
+subject104,suffer+in favour
+subject106,suffer+in favour
+subject108,suffer+in favour
+subject109,control
+subject11,control
+subject110,suffer+in favour
+subject111,control
+subject112,suffer+in favour
+subject113,suffer+in favour
+subject114,suffer+in favour
+subject115,suffer+in favour
+subject116,suffer+in favour
+subject117,control
+subject118,suffer+in favour
+subject119,control
+subject12,control
+subject121,suffer+against
+subject122,suffer+in favour
+subject123,suffer+in favour
+subject124,suffer+in favour
+subject125,suffer+against
+subject126,control
+subject127,suffer+in favour
+subject128,control
+subject129,suffer+in favour
+subject13,suffer+in favour
+subject130,control
+subject131,control
+subject132,suffer+in favour
+subject133,suffer+against
+subject134,suffer+against
+subject135,suffer+against
+subject136,control
+subject137,suffer+in favour
+subject138,control
+subject139,control
+subject14,control
+subject140,suffer+in favour
+subject141,suffer+in favour
+subject142,suffer+in favour
+subject143,suffer+in favour
+subject144,suffer+against
+subject145,suffer+against
+subject146,suffer+against
+subject147,suffer+against
+subject148,control
+subject149,suffer+against
+subject15,suffer+in favour
+subject150,suffer+in favour
+subject151,control
+subject152,suffer+in favour
+subject153,suffer+in favour
+subject154,suffer+against
+subject155,suffer+against
+subject156,suffer+in favour
+subject157,suffer+against
+subject158,suffer+in favour
+subject159,control
+subject16,control
+subject160,suffer+in favour
+subject161,control
+subject162,suffer+in favour
+subject163,control
+subject164,suffer+against
+subject165,suffer+against
+subject166,suffer+in favour
+subject167,suffer+against
+subject168,suffer+in favour
+subject169,suffer+in favour
+subject17,control
+subject170,control
+subject171,suffer+in favour
+subject172,control
+subject173,suffer+in favour
+subject174,suffer+against
+subject175,suffer+in favour
+subject176,suffer+in favour
+subject177,suffer+in favour
+subject178,suffer+in favour
+subject179,control
+subject18,suffer+in favour
+subject180,control
+subject181,suffer+in favour
+subject182,suffer+in favour
+subject183,suffer+in favour
+subject187,control
+subject189,suffer+against
+subject19,control
+subject191,control
+subject192,control
+subject194,control
+subject197,control
+subject20,suffer+against
+subject201,control
+subject202,control
+subject203,control
+subject204,control
+subject207,suffer+against
+subject208,control
+subject209,control
+subject21,suffer+against
+subject211,control
+subject213,control
+subject218,suffer+other
+subject219,suffer+other
+subject222,suffer+against
+subject223,suffer+against
+subject224,control
+subject226,control
+subject227,suffer+against
+subject228,suffer+against
+subject229,control
+subject23,control
+subject230,control
+subject231,control
+subject232,control
+subject233,control
+subject236,suffer+other
+subject237,control
+subject238,control
+subject239,control
+subject24,control
+subject241,suffer+against
+subject243,suffer+other
+subject245,control
+subject247,suffer+against
+subject248,control
+subject249,suffer+against
+subject25,control
+subject250,suffer+against
+subject252,control
+subject253,control
+subject254,control
+subject255,suffer+against
+subject257,suffer+against
+subject258,control
+subject26,suffer+against
+subject261,suffer+against
+subject263,control
+subject264,suffer+against
+subject268,suffer+against
+subject269,suffer+against
+subject27,control
+subject271,suffer+other
+subject272,control
+subject273,suffer+against
+subject275,control
+subject276,control
+subject277,control
+subject278,control
+subject279,suffer+against
+subject281,control
+subject283,suffer+other
+subject289,control
+subject29,control
+subject291,suffer+against
+subject298,control
+subject30,suffer+against
+subject300,control
+subject301,suffer+against
+subject302,control
+subject304,control
+subject305,control
+subject307,suffer+against
+subject308,control
+subject309,suffer+against
+subject310,control
+subject313,control
+subject314,suffer+against
+subject316,control
+subject322,control
+subject323,control
+subject325,control
+subject328,control
