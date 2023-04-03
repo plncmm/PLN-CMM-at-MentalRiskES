@@ -1,6 +1,20 @@
 # PLN-CMM-at-MentalRiskES
 
-Repository associated with the participation of the PLN CMM group at MentalRiskES. The structure of the project is as follows:
+Repository associated with the participation of the PLN CMM group at MentalRiskES. 
+
+## Data
+First, obtain the raw data from the server with the following command
+```
+python src/data/make_dataset.py
+```
+
+Then, use the following Script to obtain text classification format:
+```
+python src/data/format_data.py
+```
+
+
+The structure of the project is as follows:
 
     ------------
     ├── README.md          <- The top-level README for developers using this project.
