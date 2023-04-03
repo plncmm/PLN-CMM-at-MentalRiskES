@@ -3,14 +3,14 @@
 Repository associated with the participation of the PLN CMM group at MentalRiskES. 
 
 ## Data
-First, obtain the raw data from the server with the following command
+First, obtain the raw data from the server with the following command in the src/data folder:
 ```
-python src/data/make_dataset.py
+python make_dataset.py
 ```
 
 Then, use the following Script to obtain text classification format:
 ```
-python src/data/format_data.py
+python format_data.py
 ```
 
 
