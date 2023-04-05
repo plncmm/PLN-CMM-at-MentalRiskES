@@ -15,6 +15,26 @@ def get_texts_from_json_files(paths):
         d[os.path.basename(path).split('.')[0]]=text
     return d
 
+def get_round_texts_from_json_files(paths, n_messages):
+    d = {}
+    max_value = 0
+    for path in paths:
+        f = open(path)
+        data = json.load(f)
+        text = ''
+        if len(data)>=max_value:
+            max_value = len(data)
+            print(data)
+
+        for i, message in enumerate(data):
+            if i<n_messages:
+                text += message['message']
+            else:
+                break
+            text += ' '
+        d[os.path.basename(path).split('.')[0]]=text
+    return d
+
 def format_data_task(text_dict, annotations, output_filename):
     d = {'filename': [], 'text':[], 'label':[]}
     for filename, text in text_dict.items():
@@ -45,24 +65,27 @@ def get_annotations(path, subtask):
 def get_paths(directory_path):
     return [path for path in glob.glob(f'{directory_path}/*.json')]
 
-def format_files(task):
+def format_files(task, n_messages):
 
     if task=='task1':
         subtasks = ['task1a', 'task1b']
         for st in subtasks:
             train_annotations= get_annotations(f'../../data/raw/{task}/train/gold_train_{st}.txt', st)
             train_text_paths = get_paths(f'../../data/raw/{task}/train/subjects_train')
-            train_texts = get_texts_from_json_files(train_text_paths)
-            format_data_task(train_texts, train_annotations, f'../../data/processed/data_{st}.csv')
+            train_texts = get_round_texts_from_json_files(train_text_paths, n_messages)
+            format_data_task(train_texts, train_annotations, f'../../data/processed/data_{st}_round_{n_messages}.csv')
     
     if task=='task2':
         subtasks = ['task2a', 'task2b', 'task2c', 'task2d']
         for st in subtasks:
             train_annotations= get_annotations(f'../../data/raw/{task}/train/gold_train_{st}.txt', st)
             train_text_paths = get_paths(f'../../data/raw/{task}/train/subjects_train')
-            train_texts = get_texts_from_json_files(train_text_paths)
-            format_data_task(train_texts, train_annotations, f'../../data/processed/data_{st}.csv')
+            train_texts = get_round_texts_from_json_files(train_text_paths, n_messages)
+            format_data_task(train_texts, train_annotations, f'../../data/processed/data_{st}_round_{n_messages}.csv')
 
 if __name__=='__main__':
-    format_files('task1')
-    format_files('task2')
+    for i in range(50):
+        format_files('task1', n_messages=i+1)
+    
+    for i in range(100):
+        format_files('task2', n_messages=i+1)
