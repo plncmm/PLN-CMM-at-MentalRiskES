@@ -19,9 +19,9 @@ if __name__ == "__main__":
         
 
     task = "task1"
-    x = list(range(5))
+    x = list(range(50))
     y = []
-    for i in range(5):
+    for i in range(50):
 
         log_filename = f"{output_folder}ffnn_bow_round_{i}.csv"
         df = gen_data(task, i+1)
