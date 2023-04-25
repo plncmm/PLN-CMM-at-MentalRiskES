@@ -1,0 +1,11 @@
+Subject,label
+subject1,0.0
+subject10,1.0
+subject100,0.9
+subject102,0.9
+subject103,0.3
+subject105,0.2
+subject107,0.1
+subject120,0.7
+subject206,0.6
+subject210,1.0

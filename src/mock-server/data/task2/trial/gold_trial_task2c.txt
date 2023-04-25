@@ -1,0 +1,11 @@
+Subject,label
+subject1,control
+subject10,suffer+in favour
+subject100,suffer+in favour
+subject102,suffer+against
+subject103,control
+subject105,control
+subject107,control
+subject120,suffer+against
+subject206,suffer+other
+subject210,suffer+other
